@@ -19,7 +19,7 @@ moveNPC()
     .then(() => npc.walkWest(2700))
     .then(() => npc.walkNorth(400))*/
 
-async function runningNPC(){
+async function moveNPC(){
     await npc.walkNorth(1400)
     await npc.walkEast(1200)
     await npc.walkSouth(300)
@@ -29,7 +29,7 @@ async function runningNPC(){
     await npc.walkNorth(400)
     await runningNPC(9000) // not sure how to use a while look to repeat this, so just made it repeat itself
 }
-runningNPC()
+moveNPC()
 
 
 // Create the inventory
