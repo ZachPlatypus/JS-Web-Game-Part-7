@@ -27,7 +27,7 @@ async function moveNPC(){
     await npc.walkSouth(1500)
     await npc.walkWest(2700)
     await npc.walkNorth(400)
-    await runningNPC(9000) // not sure how to use a while look to repeat this, so just made it repeat itself
+    await moveNPC(9000) // not sure how to use a while look to repeat this, so just made it repeat itself
 }
 moveNPC()
 
